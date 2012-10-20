@@ -1,4 +1,4 @@
 play-ldap
 =========
 
-Play Module for accessing a LDAP Direcotry in an easy way
+Play Module for accessing a LDAP Directory in an easy way
