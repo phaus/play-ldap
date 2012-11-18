@@ -2,11 +2,5 @@ self: play -> play-ldap 0.1
 
 require:
     - play
-    - local -> ldap-connector 1.0
+    - com.innoq.liqid -> ldap-connector 1.0
 
-repositories:
-    - local:
-        type: local
-        artifact: "${application.path}/jars/[organisation]/[artifact]-[revision].jar"
-        contains:
-            - local -> *    
