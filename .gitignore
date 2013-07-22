@@ -13,12 +13,10 @@ precompiled
 tmp
 test-result
 eclipse
-server.pid
-/nbproject/private/
-nbproject/project.xml
+**/server.pid
 
-lib/ldap-connector-1.0.jar
+**/nbproject
 
-lib/model-1.0.jar
+play1-module/dist
 
-lib/utils-1.0.jar
+play1-module/lib

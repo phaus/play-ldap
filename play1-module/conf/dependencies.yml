@@ -1,0 +1,5 @@
+self: play -> play-ldap 0.3
+
+require:
+    - play
+    - com.innoq.liqid -> ldap-connector 1.3
